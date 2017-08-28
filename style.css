@@ -1,20 +1,43 @@
+/*style.css*/
+
 body, html {
 	width: 100%;
 	height: 100%;
 	margin: 0;
 	color: darkslategrey;
-	background-color: seashell;
 	font-family: 'Gafata';
+	background-color: whitesmoke;
+}
+
+#contact {
+	float: right;
+	padding-right: 25px;
 }
 
 #header {
+	background-image: url("header.png");
 	width:100%;
 	height: 50px;
+	background-color: seashell;
+}
+
+#buttons {
+	float: left;
+	padding-left: 45px;
+}
+
+#name {
+	float: left;
+}
+
+#namebutton {
+	font-weight: bold; 
 }
 
 button {
+	font-weight: bold; 
 	height:50px;
-	background-color: seashell;
+	background-color: transparent; 
     border: none;
     color: darkslategrey;
     padding: 15px 32px;
@@ -24,43 +47,70 @@ button {
     display: inline-block;
     font-size: 16px;
     transition-duration: 0.4s;
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
-button:hover {
-	background-color: whitesmoke;
+.options:hover {
+	background: rgb(248,242,236);
 	color: darkslategrey;
 }
 #middle {
-	width:100%;
-	height: 500px;
-	background-color: whitesmoke;
+	width: 100%;
+	height: 100%;
+	padding-left: 60px;
 }
 
 #midtext {
+	float: right;
 	text-align:center;
 	border-color: darkslategrey;
 	border-radius: 1px;
-	border-style: solid;
-	height: 440px;
+	border-style: none;
+	height: 320px;
 	width: 50%;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	margin-left: 600px;
-	margin-right: 20px;
+	margin-left: 500px;
 	position: absolute;
 }
 
 #me {
+	float: left;
 	border-color: seashell;
 	border-radius: 10px;
 	border-style: solid;
-	margin-left: 60px;
-	margin-top: 80px;
+	margin-top: 30px;
 	margin-right: 60px;
-	margin-bottom: 80px;
 	position: absolute;
 }
-#footer {
-	color: darkslategrey;
+
+#exp {
+	float: left;
+	margin-top: 400px;
+	width: 100%;
 }
+
+.expbox {
+	height: 200px;
+	width: 90%;
+	border-color: darkslategrey;
+	border-radius: 1px;
+	border-style: solid;
+}
+
+.separator {
+	height: 10px;
+	width: 100%;
+	background-color: white;
+}
+
+#footer {
+	clear: both;
+    position: relative;
+    margin-top: -3em;
+	background-image: url("header.png");
+	text-align: center;
+	width:100%;
+	height: 80px;
+	background-color: seashell;
+}
+
+
