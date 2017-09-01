@@ -16,7 +16,6 @@ body, html {
 
 #header {
 	background-image: url("header.png");
-	width:100%;
 	height: 50px;
 	background-color: seashell;
 }
@@ -56,7 +55,7 @@ button {
 }
 #middle {
 	width: 100%;
-	height: 100%;
+	height: 90%;
 	padding-left: 60px;
 }
 
